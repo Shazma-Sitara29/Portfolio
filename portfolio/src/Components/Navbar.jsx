@@ -72,7 +72,7 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-8 text-2xl">
           <li>
             <Link
-              to="/"
+              to="herosection"
               smooth={true}
               duration={500}
               className="hover:text-gray-900 transition duration-300 cursor-pointer"
@@ -152,7 +152,7 @@ const Navbar = () => {
         <ul className="md:hidden flex flex-col items-center gap-6 py-4 bg-gray-600 text-white text-xl">
           <li>
             <Link
-              to="home"
+              to="herosection"
               smooth={true}
               duration={500}
               className="hover:text-gray-900 transition duration-300 cursor-pointer"

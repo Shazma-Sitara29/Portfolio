@@ -36,10 +36,10 @@ const HeroSection = () => {
         {/* Left Side - Content */}
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Hi, I'm Shazma Sitara
+            Hi <br></br> I'm Shazma Sitara
           </h1>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="text-slate-950">
+            <span className="text-slate-200">
               {/* Typewriter Effect */}
               {isVisible && (
                 <Typewriter
