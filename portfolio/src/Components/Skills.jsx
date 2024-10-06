@@ -42,7 +42,7 @@ const Skills = () => {
     <section
       id="skills"
       ref={sectionRef}
-      className="min-h-screen flex items-center justify-center bg-gradient-to-r from-slate-600 to-gray-900"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-r from-slate-600 to-gray-900 font-serif"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 md:px-12">
         
@@ -71,7 +71,7 @@ const Skills = () => {
         {/* Right Side - Image */}
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
           <motion.img
-            src="https://via.placeholder.com/300"
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--JvNg6LJ---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/i/5ct9nhbw6gdpb8dh0yy1.png"
             alt="Profile Pic"
             className="rounded-lg w-80 h-80 object-cover border-4 border-gray-300"
             initial={{ scale: 0.8, opacity: 0 }}

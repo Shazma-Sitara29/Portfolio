@@ -66,7 +66,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-black to-gray-700 text-white fixed w-full z-10 font-serif">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="text-2xl font-bold">
-          My Portfolio
+          SITARA
         </div>
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-2xl">
@@ -114,17 +114,7 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
-          <li>
-            <Link
-              to="services"
-              smooth={true}
-              duration={500}
-              className="hover:text-gray-900 transition duration-300 cursor-pointer"
-              spy={true}
-            >
-              Services
-            </Link>
-          </li>
+         
           <li>
             <Link
               to="contact"
@@ -194,17 +184,8 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
-          <li>
-            <Link
-              to="services"
-              smooth={true}
-              duration={500}
-              className="hover:text-gray-900 transition duration-300 cursor-pointer"
-              onClick={toggleMenu}
-            >
-              Services
-            </Link>
-          </li>
+          
+          
           <li>
             <Link
               to="contact"
