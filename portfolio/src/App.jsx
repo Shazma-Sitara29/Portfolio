@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
-import HeroSection from './Components/HeroSection'
+import Home from './Components/Home'
 import About from './Components/About'
 import Skills from './Components/Skills'
 
@@ -10,7 +10,7 @@ import Contact from './Components/Contact'
  const App = () => {
   return (
     <><Navbar/>
-    <HeroSection/>
+    <Home/>
     <About/>
     <Skills/>
     <Projects/>

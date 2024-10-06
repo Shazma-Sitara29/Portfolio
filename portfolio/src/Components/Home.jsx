@@ -65,7 +65,7 @@ const HeroSection = () => {
         
         {/* Right Side - Image */}
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
-          <img src="https://via.placeholder.com/300" alt="Profile Pic" className="rounded-full w-80 h-80 object-cover border-4 border-gray-400" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-LxHIXeo5KYqWz2FzVtAfa-EJeNciR7gZg&s" alt="Profile Pic" className=" w-80 h-80 object-cover border-4 border-gray-400" />
         </div>
       </div>
     </section>
