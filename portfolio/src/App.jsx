@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import About from './Components/About'
 import Skills from './Components/Skills'
+import Services from './Components/Services'
 
  const App = () => {
   return (
@@ -10,6 +11,7 @@ import Skills from './Components/Skills'
     <HeroSection/>
     <About/>
     <Skills/>
+    <Services/>
     </>
   )
 }

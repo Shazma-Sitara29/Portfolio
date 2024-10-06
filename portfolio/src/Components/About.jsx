@@ -29,7 +29,7 @@ const AboutSection = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="bg-gray-50 text-white py-20"
+      className="bg-gray-50 text-white py-20 font-serif"
     >
       <div className="container mx-auto px-6 md:px-12">
         <h2 className="text-4xl md:text-5xl font-bold text-black text-center mb-12">
